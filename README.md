@@ -10,5 +10,5 @@
 
 ```console
 ffind -p /
-ffind  # defaults to current directory "."
+ffind
 ```
