@@ -49,4 +49,9 @@ var fileExtentions = map[string]string{
   ".go": "Golang file",
   ".java": "Java file",
   ".jar": "Java classes archive file",
+  ".sqlite3": "SQLite 3 database file",
+  ".myd": "MySQL database data file",
+  ".mdf": "SQL Server database file",
+  ".dbf": "Oracle database file",
+  ".enc": "Encrypted file",
 }
