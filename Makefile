@@ -9,7 +9,7 @@ windows-release:
 	sha256sum ffind-windows-386.tar.gz > ffind-windows-386.tar.gz.sha256sum
 
 darwin:
-	GOOS=darwin GOARCH=amd64 go build -o ./rwf ./main.go
+	GOOS=darwin GOARCH=amd64 go build -o ./ffind ./main.go
 darwin-release:
 	GOOS=darwin GOARCH=amd64 go build -o ./ffind ./main.go
 	tar -czvf ffind-darwin-amd64.tar.gz ./ffind ./README.md
