@@ -1,6 +1,6 @@
 # ffind
 
-`ffind` is a tool to quickly find interesting files on a compromised host during a penetration test
+`ffind` is a tool to find files of interest on a compromised host during a penetration test
 
 ![image](https://user-images.githubusercontent.com/44281620/148688336-e0aea33a-8f4a-4fa4-adc3-3229531ed0f6.png)
 
