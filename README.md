@@ -18,7 +18,6 @@ go install -v github.com/bin3xish477/ffind@latest
 git clone https://github.com/bin3xish477/ffind.git
 cd ffind
 go build *.go
-sudo install ffind /usr/local/bin
 ```
 
 ### Usage
