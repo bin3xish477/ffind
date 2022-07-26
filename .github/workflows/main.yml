@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-
 jobs:
   build:
     strategy:
@@ -16,5 +15,7 @@ jobs:
         with:
           go-version: ${{ matrix.go-version }}
       - uses: "actions/checkout@v3"
+        with:
+          token: ${{ github.token }}
       - run: go build .
 
